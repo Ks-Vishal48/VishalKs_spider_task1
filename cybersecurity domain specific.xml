@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="Image1" object_type="graphic"/>
+ <object alt="" name="Image2" object_type="graphic"/>
+ <object alt="" name="Image3" object_type="graphic"/>
+ <object alt="" name="Image4" object_type="graphic"/>
+ <object alt="" name="Image5" object_type="graphic"/>
+ <object alt="" name="Image6" object_type="graphic"/>
+ <object alt="" name="Image7" object_type="graphic"/>
+ <object alt="" name="Image8" object_type="graphic"/>
+ <object alt="" name="Image9" object_type="graphic"/>
+ <object alt="" name="Image10" object_type="graphic"/>
+ <object alt="" name="Image11" object_type="graphic"/>
+ <object alt="" name="Image12" object_type="graphic"/>
+ <object alt="" name="Image13" object_type="graphic"/>
+ <object alt="" name="Image14" object_type="graphic"/>
+ <paragraph index="51" node_type="writer">LEVEL 1 TASK</paragraph>
+ <paragraph index="52" node_type="writer">Target  - https://testphp.vulnweb.com</paragraph>
+ <paragraph index="54" node_type="writer">1)recon for IP ADDRESS</paragraph>
+ <paragraph index="57" node_type="writer">IP Address found is – 44.228.249.3(ipv4)</paragraph>
+ <paragraph index="59" node_type="writer">2)recon for DNS INFO</paragraph>
+ <paragraph index="60" node_type="writer">A RECORD -IPV4 ADDRESS – 44.228.249.3</paragraph>
+ <paragraph index="62" node_type="writer">AAAA RECORD for testphp.vulnweb.com– NOT FOUND</paragraph>
+ <paragraph index="64" node_type="writer">NS RECORD FOR VULNWEB.COM ARE  ns1.eurodns.com , ns2.eurodns.com, ns3.eurodns.com, ns4.eurodns.com</paragraph>
+ <paragraph index="66" node_type="writer">NS RECORD FOR testphp.vulnweb.com but shows parent domain (vulnweb.com) has</paragraph>
+ <paragraph index="69" node_type="writer">dnsrecon tool used to analyze dns records</paragraph>
+ <paragraph index="70" node_type="writer">we observe that for testphp.vulnweb.com we don’t have ns but for vulnweb.com we have</paragraph>
+ <paragraph index="72" node_type="writer">TXT RECORD FOR testphp.vulnweb.com : google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ</paragraph>
+ <paragraph index="75" node_type="writer">SOA RECORD : here ns1.eurodns.com appears as its the primary name server for zone  and hostmaster.eurodns.com (replace first . With @ for contact email)</paragraph>
+ <object index="78" name="Table1" object_type="table"/>
+ <paragraph index="80" node_type="writer" parent_index="78">      DNS RECORD      </paragraph>
+ <paragraph index="83" node_type="writer" parent_index="78">      Testphp.vulnweb.com</paragraph>
+ <paragraph index="86" node_type="writer" parent_index="78">    Vulnweb.com</paragraph>
+ <paragraph index="89" node_type="writer" parent_index="78">              A</paragraph>
+ <paragraph index="92" node_type="writer" parent_index="78">       44.228.249.3</paragraph>
+ <paragraph index="95" node_type="writer" parent_index="78">         44.228.249.3</paragraph>
+ <paragraph index="98" node_type="writer" parent_index="78">            AAAA</paragraph>
+ <paragraph index="101" node_type="writer" parent_index="78">      Not there                        </paragraph>
+ <paragraph index="104" node_type="writer" parent_index="78">          Not there  </paragraph>
+ <paragraph index="107" node_type="writer" parent_index="78">             NS                                  </paragraph>
+ <paragraph index="110" node_type="writer" parent_index="78">       Not there</paragraph>
+ <paragraph index="113" node_type="writer" parent_index="78"> ns1.eurodns.com ,     </paragraph>
+ <paragraph index="114" node_type="writer" parent_index="78"> ns2.eurodns.com,  </paragraph>
+ <paragraph index="115" node_type="writer" parent_index="78"> ns3.eurodns.com,   </paragraph>
+ <paragraph index="116" node_type="writer" parent_index="78"> ns4.eurodns.com</paragraph>
+ <paragraph index="121" node_type="writer" parent_index="78">          SOA</paragraph>
+ <paragraph index="124" node_type="writer" parent_index="78">    ns1.eurodns.com.      </paragraph>
+ <paragraph index="125" node_type="writer" parent_index="78">   hostmaster.eurodns.com. </paragraph>
+ <paragraph index="126" node_type="writer" parent_index="78">  2024111200 86400 7200   </paragraph>
+ <paragraph index="127" node_type="writer" parent_index="78">  604800 86400</paragraph>
+ <paragraph index="132" node_type="writer" parent_index="78">ns1.eurodns.com. hostmaster.eurodns.com. 2024111200 86400 7200 604800 86400</paragraph>
+ <paragraph index="135" node_type="writer" parent_index="78">         TXT</paragraph>
+ <paragraph index="138" node_type="writer" parent_index="78"> google-site-verification:toEctYsulNIxgraKk7H3z58PCyz2IOCc36pIupEPmYQ</paragraph>
+ <paragraph index="141" node_type="writer" parent_index="78">google-site-verification=4LQORV-lTi-d4GPxtBEQWmFnwff7UAazQc9gZvHukbw AND v=spf1 -all</paragraph>
+ <paragraph index="144" node_type="writer" parent_index="78">          MX</paragraph>
+ <paragraph index="147" node_type="writer" parent_index="78">   Not there</paragraph>
+ <paragraph index="150" node_type="writer" parent_index="78">   Not there</paragraph>
+ <paragraph index="153" node_type="writer" parent_index="78">         SRV</paragraph>
+ <paragraph index="156" node_type="writer" parent_index="78">  Not there</paragraph>
+ <paragraph index="159" node_type="writer" parent_index="78">   Not there</paragraph>
+ <paragraph index="181" node_type="writer">We have worked with dnsrecon tool also to be safe</paragraph>
+ <paragraph index="184" node_type="writer">3) recon for TECH STACK(cms, server etc)</paragraph>
+ <paragraph index="186" node_type="writer">USING WHATWEB -V</paragraph>
+ <paragraph index="187" node_type="writer">  </paragraph>
+ <paragraph index="195" node_type="writer">USING WAPALLYZER EXTENSION</paragraph>
+ <paragraph index="197" node_type="writer">OS USED- ubuntu 20.04.01</paragraph>
+ <paragraph index="199" node_type="writer">WEB SERVERS- Nginx/1.19.0</paragraph>
+ <paragraph index="201" node_type="writer">PROGRAMMING LANGUAGES- adobe flash, javascript</paragraph>
+ <paragraph index="203" node_type="writer">REVERSE PROXIES - Nginx 1.19.0</paragraph>
+ <paragraph index="205" node_type="writer">SCRIPT: javascript</paragraph>
+ <paragraph index="207" node_type="writer">CMS: none detected</paragraph>
+ <paragraph index="209" node_type="writer">4)recon for SUBDOMAINS(IF ANY)</paragraph>
+ <paragraph index="211" node_type="writer">hence subdomain found using subfinder -d are </paragraph>
+ <paragraph index="213" node_type="writer">sieb-web1.testphp.vulnweb.com</paragraph>
+ <paragraph index="214" node_type="writer">www.testphp.vulnweb.com</paragraph>
+ <paragraph index="216" node_type="writer">5) recon for OPEN PORTS/SERVICES</paragraph>
+ <paragraph index="218" node_type="writer">NMAP USED </paragraph>
+ <paragraph index="219" node_type="writer"> port 80 is open and service  is http</paragraph>
+ <paragraph index="221" node_type="writer">6)DIRECTORY STRUCTURE(Using ffuf,dirsearch)</paragraph>
+</indexing>
