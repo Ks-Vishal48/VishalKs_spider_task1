@@ -27,3 +27,11 @@ first target
     link ; https://www.cpvermacollege.org.in/admin-panel/login/
 
    found:a admin panel of cp verma college
+
+   PUBLIC BACKUP/CONFIG FILE
+  1) Dork used - site:.org intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
+   link: https://www.w3.org/config/
+
+  2) Dork used - site:.org intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
+   link: https://www.pjsir.org/configs/
+
