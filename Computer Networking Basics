@@ -59,4 +59,16 @@
     file encoded.txt user agent: curl/8.5.0
 
    so user agent for all was curl/8.5.0
+
+
+
+
+DEVOPS
+#!/bin/bash
+ ls -a "$1" | grep ".env.*" >> envfile.txt
+mkdir logs/
+while read line; do
+   echo "$line"
+done < envfile.txt
+
    
