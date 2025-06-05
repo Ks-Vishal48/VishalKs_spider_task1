@@ -90,9 +90,14 @@ TARGET 2-   .com
    link: http://www.throneconference.com/config/
 
  EXPOSED LOGS/ERRORS
-  1)
+  1) dork used - site:.com intext:"API KEY" filetype:log
   link: https://github.com/Kim-SuBin/TIL/blob/main/practice/elastic-stack-posting/post009/access.log
 
-  2)
+  2) dork used - site:.com intext:"API KEY" filetype:log
   link: https://raw.githubusercontent.com/TamaTamaGoGo/tamatamagogo/master/logs/DietPi/%234486/chrome_debug.log
+
+  3) dork used - site:.com intext:"API KEY" filetype:log
+   link: https://support.zabbix.com/secure/attachment/173297/zabbix_server.log
+
+  EMAIL AND CONTACT INFO
 
