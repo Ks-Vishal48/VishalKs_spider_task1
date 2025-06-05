@@ -1,43 +1,15 @@
 #!/bin/bash
+ ls -a "$1" | grep ".env.*" >> envfile.txt
+mkdir logs/
+while read "$i"; do
+   while read j; do
+       
+done < envfile.txt
 
-TARGET_DIR="$1"
-LOG_DIR="logs"
-SANITIZED_FILE=".env.sanitized"
-METADATA_LOG="$LOG_DIR/metadata.log"
 
-mkdir -p "$LOG_DIR"
-> "$SANITIZED_FILE"
-> "$METADATA_LOG"
+#so logic is put in a loop and take directory one by one , then list all .env.* type files into envfile.txt then put while loop and 
+# read each env file name then a while loop to read contents line by line then check lines using rejex, sed etc . then put accordingly to 
+# log file and display
 
-scan_envfiles() {
-  local env_file="$1"
-  local valid_lines=()
-  local invalid_lines=()
-
-  while IFS= read -r line || [ -n "$line" ]; do
-    [[ "$line" =~ ^#.*$ || -z "$line" ]] && continue
-    if [[ "$line" =~ ^[A-Z_][A-Z0-9_]*=[^[:space:]\"\'\`]+$ ]]; then
-      valid_lines+=("$line")
-    else
-      invalid_lines+=("$line")
-    fi
-  done < "$env_file"
-
-  printf "%s\n" "${valid_lines[@]}" >> "$SANITIZED_FILE"
-
-  {
-    echo "File: $env_file"
-    echo "Valid Lines: ${#valid_lines[@]}"
-    echo "Invalid Lines: ${#invalid_lines[@]}"
-    echo "Rejected Lines:"
-    for line in "${invalid_lines[@]}"; do echo "  - $line"; done
-    echo ""
-  } >> "$METADATA_LOG"
-}
-
-# Scan for .env files
-find "$TARGET_DIR" -type f -name ".env*" | while read -r env_file; do
-  scan_envfiles "$env_file"
-done
-
-echo "✅ Done. Output: $SANITIZED_FILE, Logs: $METADATA_LOG"
+piping |
+>, >> redirection
