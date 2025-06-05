@@ -1,7 +1,0 @@
-vishal@vishal-Dell-G15-5530:~$ nslookup testphp.vulnweb.com
-Server:		127.0.0.53
-Address:	127.0.0.53#53
-
-Non-authoritative answer:
-Name:	testphp.vulnweb.com
-Address: 44.228.249.3
