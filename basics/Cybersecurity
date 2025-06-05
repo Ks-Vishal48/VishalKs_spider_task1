@@ -1,7 +1,7 @@
 first target
 1) .org domain
    PUBLIC DOCUMENT 
-   1) dork used :site: .org filetype:pdf OR filetype:xlsx OR filetype:docx "transfer certificate"
+   1) dork used :site:.org filetype:pdf OR filetype:xlsx OR filetype:docx "transfer certificate"
      link:chrome-https://myggis.org/images/transfer-certificate/Transfer-certificate-23-1.pdf
 
     found transfer certificate of some students (204 students) which can be ued .
@@ -12,7 +12,7 @@ first target
      found many useful info , it has a salary slip with account number also mentioned
 
 
-   3) dork used: site: .org filetype:xlsx OR filetype:pdf OR filetype:docx "roll number name"
+   3) dork used: site:.org filetype:xlsx OR filetype:pdf OR filetype:docx "roll number name"
     link: https://www.beeindia.gov.in/sites/default/files/Maharashtra%20A_0.pdf
 
     found some students name,father name,school address and school name and roll number
@@ -64,4 +64,35 @@ first target
   3) Dork used - site:.org intext:"index of /.git"
    link: https://www.amarconline.org/.git/
 
+TARGET 2-   .com
+   PUBLIC DOCUMENTS
+   1)dork used - site:.com (filetype:pdf OR filetype:xlsx OR filetype:docx) intext:"password" "username"
+    link: https://www.milwaukeeofficeproducts.com/uploads/username-and-passwords.pdf
+
+   2) dork used - site:.com filetype:xlsx intext:"password" "username"
+    link : https://googlegroups.com/a/chromium.org/group/chromium-apps/attach/6e6edf8707b55/Google%20Passwords%20(1).xlsx?part=0.1
+
+   3) dork used - site:.com filetype:xlsx intext:"password" "username"
+    link: https://iemgroup.s3.amazonaws.com/uploads/sites/5/2021/04/Time-Table_MBA_2nd-Sem-2021_v1.30-Room-Allocation.xlsx
+
+  ADMIN PANEL/LOGIN PAGE
+  1) dork used - site:.com inurl:/admin/login
+   link: https://dailygongnewekyc.msefsl.com/ekyc-admin/login.aspx/AuthenticateUser
+
+  2) dork used - site:.com inurl:adminpanel
+   link: https://adminpanel.classwalla.com/
+
+  PUBLIC CONFIG/BACKUP FILE
+ 1) dork used - site:.com intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
+  link : https://packages.microsoft.com/config/
+
+  2) dork used - site:.com intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
+   link: http://www.throneconference.com/config/
+
+ EXPOSED LOGS/ERRORS
+  1)
+  link: https://github.com/Kim-SuBin/TIL/blob/main/practice/elastic-stack-posting/post009/access.log
+
+  2)
+  link: https://raw.githubusercontent.com/TamaTamaGoGo/tamatamagogo/master/logs/DietPi/%234486/chrome_debug.log
 
