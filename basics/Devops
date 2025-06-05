@@ -1,1 +1,7 @@
-
+DEVOPS
+#!/bin/bash
+ ls -a "$1" | grep ".env.*" >> envfile.txt
+mkdir logs/
+while read line; do
+   echo "$line"
+done < envfile.txt
