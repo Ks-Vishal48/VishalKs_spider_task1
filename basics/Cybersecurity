@@ -1,6 +1,6 @@
 first target
 1) .org domain
-   PUBLIC DOCUMENT 
+  A) PUBLIC DOCUMENT 
    1) dork used :site:.org filetype:pdf OR filetype:xlsx OR filetype:docx "transfer certificate"
      link:chrome-https://myggis.org/images/transfer-certificate/Transfer-certificate-23-1.pdf
 
@@ -11,15 +11,9 @@ first target
 
      found many useful info , it has a salary slip with account number also mentioned
 
-
-   3) dork used: site:.org filetype:xlsx OR filetype:pdf OR filetype:docx "roll number name"
-    link: https://www.beeindia.gov.in/sites/default/files/Maharashtra%20A_0.pdf
-
-    found some students name,father name,school address and school name and roll number
-
-   ADMIN PANEL/LOGIN PAGE
-  1) dork used : site:.org inurl:admin -https
-    link: https://aperc.gov.in/admin/upload/EP25
+  B) ADMIN PANEL/LOGIN PAGE
+  1) dork used : site:.org inurl:admin/login -https
+    link: http://nlplawcollege.org/admin/login
 
   found a admin login page 
 
@@ -28,14 +22,14 @@ first target
 
    found:a admin panel of cp verma college
 
-   PUBLIC BACKUP/CONFIG FILE
+  C) PUBLIC BACKUP/CONFIG FILE
   1) Dork used - site:.org intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
    link: https://www.w3.org/config/
 
   2) Dork used - site:.org intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
    link: https://www.pjsir.org/configs/
 
-  EXPOSED LOGS/ERRORS
+ D) EXPOSED LOGS/ERRORS
   1)Dork used - site:.org intext:"API KEY" filetype:log
    link: https://build.fhir.org/ig/HL7/ig-template-utg/branches/__default/build.log
 
@@ -45,7 +39,7 @@ first target
   3) Dork used - site:.org intext:"index of" ("error.log" | "access.log" | "debug.log" | "app.log")
    link: https://www.mjt.org/pages/logs/
 
- EMAIL AND CONTACT INFO 
+ E)  EMAIL AND CONTACT INFO 
   1)Dork used - site:.org intext:"employee details" "@gmail.com"
   link: https://cms.opelip.org/Staff_Details_Web_N.aspx?ID=4
 
@@ -53,7 +47,7 @@ first target
   link:https://www.uppcl.org/site/writereaddata/UploadNews/pdf/C_202006181231348094.pdf
   foound some employees birth date, email ,contact number, name , father name ,designation etc
 
-  GIT FOLDERS AND ENV FILES
+ F) GIT FOLDERS AND ENV FILES
   1)Dork used - site:.org intext:"index of /.git"
   link: https://cappcny.org/.git/https://cappcny.org/.git/
 
@@ -65,7 +59,7 @@ first target
    link: https://vimuktisanstha.org/.env
 
 TARGET 2-   .com
-   PUBLIC DOCUMENTS
+   A) PUBLIC DOCUMENTS
    1)dork used - site:.com (filetype:pdf OR filetype:xlsx OR filetype:docx) intext:"password" "username"
     link: https://www.milwaukeeofficeproducts.com/uploads/username-and-passwords.pdf
 
@@ -75,21 +69,21 @@ TARGET 2-   .com
    3) dork used - site:.com filetype:xlsx intext:"password" "username"
     link: https://iemgroup.s3.amazonaws.com/uploads/sites/5/2021/04/Time-Table_MBA_2nd-Sem-2021_v1.30-Room-Allocation.xlsx
 
-  ADMIN PANEL/LOGIN PAGE
+  B) ADMIN PANEL/LOGIN PAGE
   1) dork used - site:.com inurl:/admin/login
    link: https://dailygongnewekyc.msefsl.com/ekyc-admin/login.aspx/AuthenticateUser
 
   2) dork used - site:.com inurl:adminpanel
    link: https://adminpanel.classwalla.com/
 
-  PUBLIC CONFIG/BACKUP FILE
+ C) PUBLIC CONFIG/BACKUP FILE
  1) dork used - site:.com intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
   link : https://packages.microsoft.com/config/
 
   2) dork used - site:.com intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
    link: http://www.throneconference.com/config/
 
- EXPOSED LOGS/ERRORS
+ D) EXPOSED LOGS/ERRORS
   1) dork used - site:.com intext:"API KEY" filetype:log
   link: https://github.com/Kim-SuBin/TIL/blob/main/practice/elastic-stack-posting/post009/access.log
 
@@ -99,7 +93,7 @@ TARGET 2-   .com
   3) dork used - site:.com intext:"API KEY" filetype:log
    link: https://support.zabbix.com/secure/attachment/173297/zabbix_server.log
 
-  EMAIL AND CONTACT INFO
+  E) EMAIL AND CONTACT INFO
   1) Dork used - site:.com intext: "@gmail.com" "customer"
    link : http://cdn.shopclues.com/images/banners/Work/kexinda/Ikall_ASC.pdf
 
@@ -109,7 +103,7 @@ TARGET 2-   .com
   3) Dork used - site:.com intext: "customer " "@gmail.com"
    link: https://cdn.shopclues.com/images/banners/GfiveGLXandOneantwoServiceCentersList.pdf
 
-   GIT FOLDERS AND ENV FILES
+  F) GIT FOLDERS AND ENV FILES
    1) dork used - site:.com filetype:env intext:DB_PASSWORD
    link: https://blalpharmacy.com/.env
 
@@ -121,7 +115,7 @@ TARGET 2-   .com
 
 TARGET 3 :   .in domain
 
-  PUBLIC DOCUMENTS
+  A) PUBLIC DOCUMENTS
   1) dork used - site:.in filetype:xlsx intext:password
    link: https://www.pdkv.ac.in/Circulars/UG-sixthsem-studentsloginid-220720.xlsx
 
@@ -133,7 +127,7 @@ TARGET 3 :   .in domain
    link : https://cdnbbsr.s3waas.gov.in/s3kv01fe48f5e047397052fdadba52b088/uploads/2024/10/2024101348.pdf
    FOUND SALARY SLIPS has account number
 
-  ADMIN PANEL/LOGIN PAGE
+  B) ADMIN PANEL/LOGIN PAGE
  1)Dork used-site:.in inurl:admin intext:hrms
     link:https://sso.indianrailways.gov.in/sso/jsp/admin/home/logon.jsp
 
@@ -142,19 +136,32 @@ TARGET 3 :   .in domain
  2) Dork used - site:.in inurl:adminpanel -https
      link: https://dop.rajasthan.gov.in/AUTH/AdminPanel/Login.aspx
 
-  PUBLIC BACKUP/CONFIG FILES
+  C) PUBLIC BACKUP/CONFIG FILES
   1)Dork used - site:.in intitle:"index of" "backup.sql"
    link: https://www.bescaled.cloudwebsolutions.in/
 
   2) dork used - site:.in intitle:"index of" "backup.zip"
     link: https://phdmail.in/
 
-  EXPOSED LOGS/ERRORS
+  D)EXPOSED LOGS/ERRORS
   1)Dork used - site:.in intext:"APIKEY" filetype:log
   link: https://git.surgot.in/admin-panel/diff/backend/functions/firebase-debug.log?id=7dfbe0f363a434cfda5f9be996d194f03c36879c
 
   2) Dork used- site:.in intext:"index of" ("error.log" | "access.log" | "debug.log" | "app.log")
    link: https://webbackend.pragjyotishcollege.ac.in/logs/
 
-  
+ E) EMAIL AND CONTACT INFO 
+ 1)  dork used - site:.in intext:"@gmail.com"
+  link: https://adityatekkali.edu.in/circulars/POLARIS%20ELIGIBLE%20LIST.xls
+
+ 2) dork used- site:.in intext:"@gmail.com"
+  link: https://tramiet.in/cwpno_87898781of/Sr.%20No.%2012%20Addmission%20Disclosure.pdf
+
+
+  F) GIT AND ENV FILES
+  1) dork used - site:.in intext:"index of /.git"
+   link: https://epaylater.in/.git/
+
+  2) dork used - site:.in filetype:env intext:DB_PASSWORD
+   link: https://www.sgan.in/.env
    
