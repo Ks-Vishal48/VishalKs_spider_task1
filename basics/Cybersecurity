@@ -61,8 +61,8 @@ first target
    link: https://www.blue-horizons.org/.git/
 
 
-  3) Dork used - site:.org intext:"index of /.git"
-   link: https://www.amarconline.org/.git/
+  3) Dork used - site:.org filetype:env intext:DB_PASSWORD
+   link: https://vimuktisanstha.org/.env
 
 TARGET 2-   .com
    PUBLIC DOCUMENTS
@@ -100,4 +100,61 @@ TARGET 2-   .com
    link: https://support.zabbix.com/secure/attachment/173297/zabbix_server.log
 
   EMAIL AND CONTACT INFO
+  1) Dork used - site:.com intext: "@gmail.com" "customer"
+   link : http://cdn.shopclues.com/images/banners/Work/kexinda/Ikall_ASC.pdf
 
+  2)  Dork used - site:.com intext: "staff" "@gmail.com"
+   link: https://cdn.fly2houston.com/cdn/ff/RqcrpNCRHDTfd_SVttReAUFMep7gQmZEeryNjL1I17g/1720026046/public/2024-07/Participants_2024_Industry_Day_II.pdf
+
+  3) Dork used - site:.com intext: "customer " "@gmail.com"
+   link: https://cdn.shopclues.com/images/banners/GfiveGLXandOneantwoServiceCentersList.pdf
+
+   GIT FOLDERS AND ENV FILES
+   1) dork used - site:.com filetype:env intext:DB_PASSWORD
+   link: https://blalpharmacy.com/.env
+
+  2) dork used - site:.com filetype:env intext:DB_PASSWORD
+   link:http://hypersalon.cybussolutions.com/.env
+
+  3) dork used -site:.com intext:"index of /.git"
+   link : http://lilacinsights.com/.git/
+
+TARGET 3 :   .in domain
+
+  PUBLIC DOCUMENTS
+  1) dork used - site:.in filetype:xlsx intext:password
+   link: https://www.pdkv.ac.in/Circulars/UG-sixthsem-studentsloginid-220720.xlsx
+
+  2) dork used- site:.in filetype:pdf OR filetype:docx intext:"employee id"
+  link: https://ner.indianrailways.gov.in/uploads/files/1601028871295-HRMS%20ID%20OF%20STAFF%20WORKING%20IN%20LJN%20DIVISION.pdf
+  FOUND HRMS LOGIN ID OF RAILWAY EMPLOYEES
+
+  3) dork used - site:.in filetype:pdf OR filetype:docx intext:"salary slip"
+   link : https://cdnbbsr.s3waas.gov.in/s3kv01fe48f5e047397052fdadba52b088/uploads/2024/10/2024101348.pdf
+   FOUND SALARY SLIPS has account number
+
+  ADMIN PANEL/LOGIN PAGE
+ 1)Dork used-site:.in inurl:admin intext:hrms
+    link:https://sso.indianrailways.gov.in/sso/jsp/admin/home/logon.jsp
+
+         found: accessed a login page which is meant for railways staff as its asking hrms thing 
+         before hrms username were found so this can be useful
+ 2) Dork used - site:.in inurl:adminpanel -https
+     link: https://dop.rajasthan.gov.in/AUTH/AdminPanel/Login.aspx
+
+  PUBLIC BACKUP/CONFIG FILES
+  1)Dork used - site:.in intitle:"index of" "backup.sql"
+   link: https://www.bescaled.cloudwebsolutions.in/
+
+  2) dork used - site:.in intitle:"index of" "backup.zip"
+    link: https://phdmail.in/
+
+  EXPOSED LOGS/ERRORS
+  1)Dork used - site:.in intext:"APIKEY" filetype:log
+  link: https://git.surgot.in/admin-panel/diff/backend/functions/firebase-debug.log?id=7dfbe0f363a434cfda5f9be996d194f03c36879c
+
+  2) Dork used- site:.in intext:"index of" ("error.log" | "access.log" | "debug.log" | "app.log")
+   link: https://webbackend.pragjyotishcollege.ac.in/logs/
+
+  
+   
