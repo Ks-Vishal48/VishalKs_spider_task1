@@ -34,3 +34,23 @@ first target
 
   2) Dork used - site:.org intitle:"index of" ("config" | "settings") (".conf | ".ini" | ".cfg"| ".json" | ".yaml" | ".yml")
    link: https://www.pjsir.org/configs/
+
+  EXPOSED LOGS/ERRORS
+  1)Dork used - site:.org intext:"API KEY" filetype:log
+   link: https://build.fhir.org/ig/HL7/ig-template-utg/branches/__default/build.log
+
+  2) Dork used - site:.org intext:"API KEY" filetype:log
+   link: https://1407433742.rsc.cdn77.org/c7-firefox60.x86_64/firefox/20190320184625/60.6.0-3.el7.centos.x86_64/build.log
+
+  3) Dork used - site:.org intext:"index of" ("error.log" | "access.log" | "debug.log" | "app.log")
+   link: https://www.mjt.org/pages/logs/
+
+ EMAIL AND CONTACT INFO 
+  1)Dork used - site:.org intext:"employee details" "@gmail.com"
+  link: https://cms.opelip.org/Staff_Details_Web_N.aspx?ID=4
+
+  2) Dork used - site:.org intext:"employee details" "@gmail.com"
+  link:https://www.uppcl.org/site/writereaddata/UploadNews/pdf/C_202006181231348094.pdf
+  foound some employees birth date, email ,contact number, name , father name ,designation etc
+
+
