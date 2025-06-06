@@ -1,0 +1,5 @@
+have included a small code to take n number of directory from user and then execute .sh file. 
+
+.sh file has a code which uses piping,redirection,while loops ,grep etc.
+logic is take directory one by one and scan .env.* files into a file called envfile.txt then scan those inside double while loop and using regex, sed reject invalid
+lines into log directory via redirection.
